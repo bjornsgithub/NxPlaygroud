@@ -7,7 +7,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class ButtonComponent {
 
-  /**
+ /**
    * Is this the principal call to action on the page?
    */
   @Input()

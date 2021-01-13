@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nxplayground/components": ["libs/components/src/index.ts"]
+      "nx-components-test-lib": ["libs/components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

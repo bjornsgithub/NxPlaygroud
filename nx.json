@@ -29,15 +29,6 @@
     }
   },
   "projects": {
-    "test-app": {
-      "tags": []
-    },
-    "test-app-e2e": {
-      "tags": [],
-      "implicitDependencies": [
-        "test-app"
-      ]
-    },
     "components": {
       "tags": []
     },
