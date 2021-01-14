@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'nxplayground-components',
@@ -6,11 +6,5 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   template: '',
   encapsulation: ViewEncapsulation.None
 })
-export class ComponentsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class ComponentsComponent {
 }
