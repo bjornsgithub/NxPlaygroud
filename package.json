@@ -1,6 +1,6 @@
 {
   "name": "nxplayground",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "nx",
@@ -26,7 +26,9 @@
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "docs:json": "compodoc -p ./tsconfig.base.json -e json -d ."
+    "docs:json": "compodoc -p ./tsconfig.base.json -e json -d .",
+    "components:pack": "cd dist/libs/components && npm pack",
+    "components:publish": "cd dist/libs/components && npm publish --access public"
   },
   "private": true,
   "dependencies": {
